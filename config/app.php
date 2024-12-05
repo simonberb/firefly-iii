@@ -120,7 +120,7 @@ return [
     'timezone'        => envNonEmpty('TZ', 'UTC'),
     'locale'          => envNonEmpty('DEFAULT_LANGUAGE', 'en_US'),
     'fallback_locale' => 'en_US',
-    'key'             => env('UfpBqqeXx7zpNodsC6yjYQcRfDdm4Bxh'),
+    'key'             => env(‘APP_KEY’, ‘base64:Dsz40HWwbCqnq0oxMsjq7fItmKIeBfCBGORfspaI1Kw=’),
     'cipher'          => 'AES-256-CBC',
     'providers'       => [
         // Laravel Framework Service Providers...
