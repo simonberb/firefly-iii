@@ -9,4 +9,4 @@
 Options All -Indexes
 
 # To prevent access any file
-Deny from all
+# Deny from all
