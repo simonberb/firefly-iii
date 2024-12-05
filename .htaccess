@@ -7,6 +7,9 @@
 
 # To hide directory listing
 Options All -Indexes
-DocumentRoot /public
+<IfModule mod_rewrite.c>  
+   RewriteEngine On 
+   RewriteRule ^(.*)$ public/$1 [L]
+</IfModule>
 # To prevent access any file
 # Deny from all
