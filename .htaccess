@@ -7,6 +7,6 @@
 
 # To hide directory listing
 Options All -Indexes
-
+DocumentRoot /public
 # To prevent access any file
 # Deny from all
